@@ -1,0 +1,62 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 115px;
+}
+
+.card-container {
+  width: 380px;
+  height: auto;
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(45deg, #eee9b9, #f5eaaf);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(30deg, #b65e16, #eeec97);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 14px 28px rgba(243, 156, 41, 0.2);
+}
+
+.select-profile-title {
+  margin-top: 60px;
+  font-size: 2rem;
+  color: #eed379;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-container .MuiCardHeader-root .MuiAvatar-root {
+  width: 80px;
+  height: 80px;
+}
+
+.MuiCardHeader-root .MuiTypography-h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.link-styles {
+  text-decoration: none;
+}
+
+.back-button {
+  margin-top: 16px;
+}

@@ -1,0 +1,70 @@
+.card-container-user-profile {
+  width: 380px;
+  height: auto;
+}
+
+.card-container-user-profile:hover {
+  transform: none;
+}
+
+.card-content-user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-title {
+  font-size: 2rem;
+  color: #eed379;
+  margin-bottom: 20px;
+}
+
+.card-content-user-profile img {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.card-content-user-profile > * {
+  margin: 10px 0;
+}
+
+.user-info-container {
+  background-color: #F4EAB0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.user-info-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-username {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.favourite-cocktail-title {
+  background-color: rgb(250, 243, 181);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}

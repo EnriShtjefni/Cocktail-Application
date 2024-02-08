@@ -1,0 +1,15 @@
+# Ignore node_modules in the root
+node_modules
+
+# Ignore the .env file (contains sensitive information, such as API keys, database credentials, etc.)
+.env
+
+# Ignore any temporary files or logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

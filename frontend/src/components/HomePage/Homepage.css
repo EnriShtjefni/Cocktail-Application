@@ -1,0 +1,19 @@
+.home-page-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 120px;
+}
+
+.search-filter {
+  background-color: rgb(250, 243, 181);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}

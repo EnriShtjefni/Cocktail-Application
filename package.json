@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "node backend/src/app.js",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
